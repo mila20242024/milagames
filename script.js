@@ -7,7 +7,7 @@ let vistarisultato = document.getElementById("vistarisultato");
 
 //creo le funzioni
 function gioca(sceltagiocatore) {
-  //la scelta del compumputer deve essere random  percio...
+  //la scelta del computer deve essere random  percio...
   let sceltacomputer = scelte[Math.floor(Math.random() * 5)]; //* 3 perche deve scelgliere tra 3
   //console.log(sceltacomputer); controllo che funzioni ok!
   let risultato = ""; //lo lascio vuoto cosi si compila, guarda lo switchh

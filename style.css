@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #001F3F;
+    background-color: #789097;
+}
+#scelte{
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border-radius: 10px;
+background: #789097;
+box-shadow:  20px 20px 60px #54656a,
+             -20px -20px 60px #9cbbc4;
+    border-width: 0px;
+    width: 15%;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #001F3F;
+
+}
+#vistagiocatore, #vistacomputer,  #vistarisultato {
+    font-size: 20px;
+} 
